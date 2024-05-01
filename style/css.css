@@ -7,21 +7,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem; /* Adiciona espaçamento interno ao corpo */
+    padding: 2rem;  
     overflow: hidden; /* Esconde a barra de rolagem */
-    max-height: 80vh; /* Garante que o body tenha no mínimo 100% da altura da viewport */
-    border-top: 2rem solid transparent; /* Adiciona uma borda transparente acima do conteúdo */
+    max-height: 100vh; /* Garante que o body tenha no mínimo 100% da altura da viewport */
+    /* border-top: 2rem solid transparent;  */
     margin-bottom: 20rem;
 }
 
 .section-logo {
     text-align: center; /* Alinha o texto centralmente */
-    margin: 10rem 0 0; /* Margem superior e inferior */
+    /* padding: 3rem 0 0 0; */
 }
 
 .section-logo img {
-    max-width: 80%; /* Garante que a imagem não ultrapasse 80% da largura da tela */
+    max-width: 60%; /* Garante que a imagem não ultrapasse 80% da largura da tela */
     height: auto; /* Altura automática proporcional à largura */
+    /* margin-top: 4rem; */
 }
 
 .section-buttons {
