@@ -1,6 +1,6 @@
 body {
     background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(4,187,7,1) 82%, rgba(40,98,44,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,1) 23%, rgba(4,187,7,1) 85%, rgba(40,98,44,1) 100%);
     color: white;
     /* margin: 0; */
     display: flex;
@@ -11,7 +11,7 @@ body {
     overflow: hidden; /* Esconde a barra de rolagem */
     max-height: 100vh; /* Garante que o body tenha no mínimo 100% da altura da viewport */
     /* border-top: 2rem solid transparent;  */
-    margin-bottom: 20rem;
+    margin-bottom: 18rem;
 }
 
 .section-logo {
