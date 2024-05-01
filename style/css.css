@@ -72,6 +72,7 @@ body {
     .section-buttons > button {
         padding: 1.2rem; /* Reduz o padding dos botões */
         max-width: 300px; /* Reduz a largura máxima dos botões */
+        border-radius: 3.0rem;
     }
 
     .section-buttons > button img {
