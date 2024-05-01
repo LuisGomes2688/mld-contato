@@ -1,0 +1,90 @@
+body {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(4,187,7,1) 82%, rgba(40,98,44,1) 100%);
+    color: white;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Adiciona espaçamento interno ao corpo */
+    overflow: hidden; /* Esconde a barra de rolagem */
+    max-height: 80vh; /* Garante que o body tenha no mínimo 100% da altura da viewport */
+    border-top: 2rem solid transparent; /* Adiciona uma borda transparente acima do conteúdo */
+    margin-bottom: 20rem;
+}
+
+.section-logo {
+    text-align: center; /* Alinha o texto centralmente */
+    margin: 10rem 0 0; /* Margem superior e inferior */
+}
+
+.section-logo img {
+    max-width: 80%; /* Garante que a imagem não ultrapasse 80% da largura da tela */
+    height: auto; /* Altura automática proporcional à largura */
+}
+
+.section-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem; /* Espaçamento entre os botões */
+    margin-top: 2rem; /* Ajusta o espaçamento superior */
+    margin-bottom: 2rem; /* Adiciona margem inferior */
+}
+
+.section-buttons > button {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente dentro do botão */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    border-radius: 0.5rem;
+    padding: 1.5rem; /* Ajuste o padding conforme necessário */
+    border: none;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; /* Define a largura máxima dos botões como 100% */
+    max-width: 400px; /* Limita a largura máxima dos botões */
+    text-align: center; /* Centraliza o texto */
+    white-space: normal; /* Permite que o texto quebre em várias linhas se necessário */
+}
+
+.section-buttons > button img {
+    width: 2.5rem; /* Define o tamanho da imagem */
+    height: 2.5rem;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    margin-right: 1rem; /* Espaçamento à direita da imagem */
+}
+
+
+.section-buttons > button:hover {
+    background-color: rgba(128, 128, 128, 0.627);
+}
+
+/* Estilos para tornar a página responsiva */
+
+@media only screen and (max-width: 1200px) {
+    /* Ajustes para telas de largura máxima de 1200px */
+    
+    .section-buttons > button {
+        padding: 1.2rem; /* Reduz o padding dos botões */
+        max-width: 300px; /* Reduz a largura máxima dos botões */
+    }
+
+    .section-buttons > button img {
+        width: 2rem; /* Reduz o tamanho da imagem */
+        height: 2rem;
+    }
+}
+
+
+/* @media only screen and (max-height: 1920px) {
+    
+    body {
+        max-height: 40%;
+    }
+    
+   
+} */
