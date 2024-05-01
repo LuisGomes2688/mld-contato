@@ -42,7 +42,7 @@ body {
     border-radius: 0.5rem;
     padding: 1.5rem; /* Ajuste o padding conforme necessário */
     border: none;
-    background-color: grey;
+    background-color: rgb(96, 95, 95);
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -69,16 +69,26 @@ body {
 @media only screen and (max-width: 1200px) {
     /* Ajustes para telas de largura máxima de 1200px */
     
+
+    .section-logo h2 {
+        font-size: 1rem;
+        margin-top: 0.2rem;
+        margin-bottom: 2rem;
+    }
+
+    
     .section-buttons > button {
-        padding: 1.2rem; /* Reduz o padding dos botões */
-        max-width: 300px; /* Reduz a largura máxima dos botões */
+        padding: 0.9rem; /* Reduz o padding dos botões */
+        max-width: 25rem; /* Reduz a largura máxima dos botões */
         border-radius: 3.0rem;
     }
 
     .section-buttons > button img {
-        width: 2rem; /* Reduz o tamanho da imagem */
-        height: 2rem;
+        width: 2.8rem; /* Reduz o tamanho da imagem */
+        height: 2.5rem;
     }
+
+    
 }
 
 
