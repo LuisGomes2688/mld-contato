@@ -70,8 +70,8 @@ body {
     /* Ajustes para telas de largura máxima de 1200px */
     
     .section-buttons > button {
-        padding: 1.2rem; /* Reduz o padding dos botões */
-        max-width: 300px; /* Reduz a largura máxima dos botões */
+        padding: 1.5rem; /* Reduz o padding dos botões */
+        max-width: 400px; /* Reduz a largura máxima dos botões */
         border-radius: 3.0rem;
     }
 
