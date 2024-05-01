@@ -1,7 +1,12 @@
+:root {
+    --color-buttons: #605f5f ;
+    --color-font: #fff;
+}
+
 body {
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 23%, rgba(4,187,7,1) 85%, rgba(40,98,44,1) 100%);
-    color: white;
+    color: var(--color-font);
     /* margin: 0; */
     display: flex;
     flex-direction: column;
@@ -42,8 +47,8 @@ body {
     border-radius: 0.5rem;
     padding: 1.5rem; /* Ajuste o padding conforme necessário */
     border: none;
-    background-color: rgb(96, 95, 95);
-    color: white;
+    background-color: var(--color-buttons);
+    color: var(--color-font);
     font-weight: bold;
     cursor: pointer;
     width: 100%; /* Define a largura máxima dos botões como 100% */
@@ -90,13 +95,3 @@ body {
 
     
 }
-
-
-/* @media only screen and (max-height: 1920px) {
-    
-    body {
-        max-height: 40%;
-    }
-    
-   
-} */
